@@ -54,13 +54,14 @@ const services = [
     icon: backend,
   },
   {
+    title: 'Mobile App Developer',
+    icon: prototyping,
+  },
+  {
     title: 'UI/UX Design',
     icon: ux,
   },
-  {
-    title: 'Software Prototyping',
-    icon: prototyping,
-  },
+  
 ];
 
 const technologies = [
@@ -96,14 +97,7 @@ const technologies = [
     name: 'Node JS',
     icon: nodejs,
   },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
+  
   {
     name: 'postgresql',
     icon: postgresql,
@@ -125,31 +119,31 @@ const technologies = [
 const experiences = [
   {
     title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    company_name: 'MBFAM MM',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Sep 2021 - june 2023',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'Fullstack Web Developer',
+    company_name: 'FLC Group',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'february 2023 - June 2023',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'Front-End developer',
+    company_name: 'Elebat Solution',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Aug 2023 - Present',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    title: 'Senior Fullstack Developer',
+    company_name: 'Prophecius Technology',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'june 2023 - Present',
   },
 ];
 

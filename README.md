@@ -83,11 +83,11 @@ npm run preview
 
 ## Authors
 
-👤 **Shaquille Ndunda**
+👤 **Yohannes Lemma**
 
-- GitHub: [@shaqdeff](https://github.com/shaqdeff)
-- Twitter: [@shaquillendunda](https://twitter.com/shaquillendunda)
-- LinkedIn: [Shaquille Ndunda](https://www.linkedin.com/in/shaquille-ndunda-b13a95107/)
+- GitHub: [@john_lemma](https://github.com/jonny-grace)
+- Twitter: [@Yohannes Lemma](https://twitter.com/jonnyGrace)
+- LinkedIn: [Yohannes Lemma](https://www.linkedin.com/in/jonygrace/)
 
 ## Feedback and Contributions
 

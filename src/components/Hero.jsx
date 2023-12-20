@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { shaq, bwmap, worldmap } from '../assets';
+import {  bwmap,john, worldmap } from '../assets';
 
 const Hero = () => {
   return (
@@ -25,9 +25,9 @@ const Hero = () => {
         className="relative flex sm:flex-row flex-col w-full h-screen mx-auto 
         sm:bg-hero bg-hero-mobile overflow-hidden">
         <div
-          className={`absolute inset-0 sm:top-[250px] top-[150px] 
+          className={`absolute overflow-hidden inset-0 sm:top-[250px] top-[150px] 
           lg:top-[150px] xl:top-[250px] ${styles.paddingX} 
-          max-w-7xl mx-auto flex flex-row items-start
+          max-w-7xl m flex flex-row items-start
           justify-between gap-3`}>
           <div className="flex flex-col justify-center items-center mt-5 ml-3">
             <div className="w-5 h-5 rounded-full bg-[#0a0a0a] sm:hidden" />
@@ -40,14 +40,14 @@ const Hero = () => {
               Hi, I'm{' '}
               <span
                 className="sm:text-battleGray sm:text-[90px] 
-                text-eerieBlack text-[50px] font-mova
+                text-eerieBlack text-[35px] font-mova
                 font-extrabold uppercase">
-                Shaquille
+                Yohannes
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Lorem ipsum dolor sit amet. <br className="sm:block hidden" />
-              consectetur adipisicing elit deleniti, voluptas.
+            Fullstack developer passionate about 
+            creating seamless user experiences    and robust, scalable applications.
             </p>
           </div>
           <div
@@ -63,7 +63,7 @@ const Hero = () => {
           <a href="#about">
             <div
               className="w-[35px] h-[64px] rounded-3xl border-4 
-            border-french border-dim flex
+            border-french flex
             justify-center items-start p-2">
               <motion.div
                 animate={{
@@ -83,11 +83,11 @@ const Hero = () => {
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
         <div>
           <img
-            className="absolute bottom-0 ml-[50vw] 
-            lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
+            className="absolute bottom-0 ml-[50vw]  overflow-hidden
+            lg:ml-[73vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
             sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
-            src={shaq}
-            alt="shaquille"
+            src={john}
+            alt="Yohannes L."
           />
         </div>
       </section>

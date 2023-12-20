@@ -36,14 +36,8 @@ const About = () => {
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
-      </motion.p>
+        className="mt-4 text-taupe text-[18px] max-w-4xl leading-[30px]">
+       With more than three years of hands-on experience, I excel in constructing robust web applications utilizing a diverse tech stack that includes JavaScript, React.js, Next.js, Node.js, Express, MongoDB, and SQL. My expertise spans crafting engaging user interfaces and implementing seamless APIs, all driven by a dedication to delivering quality, scalability, and staying at the forefront of the dynamic tech landscape. This propels me to actively contribute to pioneering full stack development projects, fostering both innovation and business growth.</motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
