@@ -53,7 +53,18 @@ import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 
+import gym from './projects/gym.jpg';
+import food from './projects/food.jpg';
+import flc from './projects/flc.jpg';
+import proph from './projects/proph.jpg';
+import mart from './projects/mart.jpg';
+import myCv from './cv/Yohannes_Lemma.pdf';
+
+
 export {
+  myCv,
+  gym,
+  food,flc,proph,mart,
   bwmap,
   nairobi,
   whiteabstract,

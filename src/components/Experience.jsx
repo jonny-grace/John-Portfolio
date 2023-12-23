@@ -3,6 +3,7 @@ import {
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
 import { motion } from 'framer-motion';
+import { myCv } from '../assets';
 import 'react-vertical-timeline-component/style.min.css';
 import { styles } from '../styles';
 import { experiences } from '../constants';
@@ -100,22 +101,14 @@ const Experience = () => {
               sm:mt-[22px] mt-[16px] hover:bg-battleGray 
               hover:text-eerieBlack transition duration-[0.2s] 
               ease-in-out"
-              onClick={() =>
-                window.open(
-                  'resume link', //paste the link to your resume here
-                  '_blank'
-                )
-              }
+              onClick={() => window.open(myCv, '_blank')}
               onMouseOver={() => {
-                document
-                  .querySelector('.download-btn')
-                  .setAttribute('src', downloadHover);
+                document.querySelector('.download-btn').setAttribute('src', downloadHover);
               }}
               onMouseOut={() => {
-                document
-                  .querySelector('.download-btn')
-                  .setAttribute('src', download);
-              }}>
+                document.querySelector('.download-btn').setAttribute('src', download);
+              }}
+            >
               MY RESUME
               <img
                 src={download}
